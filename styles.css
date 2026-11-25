@@ -86,3 +86,44 @@ body {
 .btn-cta:hover {
     background-color: #4338ca;
 }
+
+.conteudo{
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 2rem;
+    color: #111827;
+    margin-bottom: 2rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card{
+    background-color: #f3f4f6;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3{
+    color: #4f46e5;
+    margin-bottom: 1rem;
+}
+
+.card p{
+    color: #6b7280;
+}
